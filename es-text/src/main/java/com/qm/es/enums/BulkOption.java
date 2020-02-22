@@ -1,4 +1,4 @@
-package com.qianfeng.elasticsearch.enums;
+package com.qm.es.enums;
 //
 //                            _ooOoo_  
 //                           o8888888o  

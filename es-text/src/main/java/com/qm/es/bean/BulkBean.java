@@ -1,4 +1,4 @@
-package com.qianfeng.elasticsearch.bean;
+package com.qm.es.bean;
 
 
 //

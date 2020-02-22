@@ -1,4 +1,4 @@
-package com.qianfeng.elasticsearch.query;
+package com.qm.es.query;
 //
 //                            _ooOoo_  
 //                           o8888888o  
@@ -67,7 +67,7 @@ public interface BaseQuery {
      * @param keyword
      * @throws Exception
      */
-    void queryMatch(String index, String type,  String keyword,String field) throws Exception;
+    void queryMatch(String index, String type, String keyword, String field) throws Exception;
 
     /**
      * @param index

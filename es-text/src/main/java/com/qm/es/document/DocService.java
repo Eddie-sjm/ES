@@ -1,4 +1,4 @@
-package com.qianfeng.elasticsearch.document;
+package com.qm.es.document;
 //
 //                            _ooOoo_  
 //                           o8888888o  

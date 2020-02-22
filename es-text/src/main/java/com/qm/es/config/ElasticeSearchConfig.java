@@ -1,4 +1,4 @@
-package com.qianfeng.elasticsearch.config;
+package com.qm.es.config;
 
 
 //

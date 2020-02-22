@@ -1,4 +1,4 @@
-package com.qianfeng.elasticsearch.query;
+package com.qm.es.query;
 //
 //                            _ooOoo_  
 //                           o8888888o  
@@ -50,7 +50,7 @@ public interface GeoQueryService {
      * @param distance 周围多远
      * @throws Exception
      */
-    void geo_distanceQuery(String index,String type,double lon,double lat,int distance) throws Exception;
+    void geo_distanceQuery(String index, String type, double lon, double lat, int distance) throws Exception;
 
     /**
      * @param index
