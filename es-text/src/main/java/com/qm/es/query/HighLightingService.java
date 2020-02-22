@@ -42,5 +42,4 @@ public interface HighLightingService {
 
     void highLigthtingQuery(String index, String type, String field, String keyword) throws Exception;
 
-
 }

@@ -28,11 +28,9 @@ package com.qm.es.document;
 //                  酒醉酒醒日复日，网上网下年复年。  
 //                  但愿老死电脑间，不愿鞠躬老板前；  
 //                  奔驰宝马贵者趣，公交自行程序员。  
-//                  别人笑我忒疯癫，我笑自己命太贱；  
-
-
-import com.qianfeng.elasticsearch.bean.BulkBean;
-import com.qianfeng.elasticsearch.bean.BulkBeanWithOption;
+//                  别人笑我忒疯癫，我笑自己命太贱；
+import com.qm.es.bean.BulkBean;
+import com.qm.es.bean.BulkBeanWithOption;
 import org.elasticsearch.action.update.UpdateResponse;
 import org.elasticsearch.index.query.QueryBuilder;
 

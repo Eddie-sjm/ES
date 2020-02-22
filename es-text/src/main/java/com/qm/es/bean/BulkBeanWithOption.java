@@ -33,7 +33,7 @@ package com.qm.es.bean;
 //                  别人笑我忒疯癫，我笑自己命太贱；  
 
 
-import com.qianfeng.elasticsearch.enums.BulkOption;
+import com.qm.es.enums.BulkOption;
 
 /**
  * Created by jackiechan on 2020-02-20 10:57

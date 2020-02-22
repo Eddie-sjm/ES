@@ -125,7 +125,6 @@ public class ElasticeSearchConfig {
      * @param builder
      */
     public void setMutConnectionConfig(RestClientBuilder builder) {
-
         builder.setHttpClientConfigCallback(new RestClientBuilder.HttpClientConfigCallback() {
             @Override
             public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpAsyncClientBuilder) {
@@ -135,9 +134,4 @@ public class ElasticeSearchConfig {
             }
         });
     }
-
-
-
-
-
 }

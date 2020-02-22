@@ -46,25 +46,15 @@ public interface AggregationQueryService {
      */
     void cardinalityAggregator(String index, String type, String field) throws Exception;
 
-
     void dateRangeAggregator(String index, String type, String field) throws Exception;
 
-
     void histogramAggregator(String index, String type, String field, int interval) throws Exception;
-
 
     void dateHistogramInterval(String index, String type, String field) throws Exception;
 
     void extended_statsAggre(String index, String type, String field) throws Exception;
 
-
     void termsAggre(String index, String type) throws Exception;
 
     void geoDisatanceAggre(String index, String type) throws Exception;
-
-
-
-
-
-
 }
